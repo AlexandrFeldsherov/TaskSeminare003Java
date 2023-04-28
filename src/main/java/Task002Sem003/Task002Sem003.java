@@ -42,7 +42,7 @@ public class Task002Sem003 {
 
     private static void productSearchByGrade(List<ProductNew> productNewList, String variety) {
         double priceProduct = 2147483647;
-        String country="нет страны";
+        String country = "нет страны";
         for (int i = 0; i < productNewList.size(); i++) {
             if (productNewList.get(i).variety.equals(variety)) {
                 if (priceProduct > (productNewList.get(i).price / productNewList.get(i).weight)) {

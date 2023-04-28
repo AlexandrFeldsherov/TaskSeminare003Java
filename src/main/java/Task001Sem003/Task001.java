@@ -25,7 +25,6 @@ public class Task001 {
         productList.add(pr04);
         int priceProductFirstVariety = 0;
         int priceProductSecondVariety = 0;
-        System.out.println(productList);
         for (int i = 0; i < productList.size(); i++) {
             if (productList.get(i).variety.equals("1 сорт") && productList.get(i).nameProdukt.contains("высший")) {
                 if (productList.get(i).price > priceProductFirstVariety) {
